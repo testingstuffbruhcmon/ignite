@@ -2,7 +2,7 @@ const base_url = "https://api.rawg.io/api/games";
 
 //day
 const getDay = () => {
-  let day = new Date().getDay();
+  let day = new Date().getDate();
   if (day < 10) {
     return `0${day}`;
   }
